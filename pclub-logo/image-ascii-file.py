@@ -35,8 +35,8 @@ while i<x:
             file.write('1') # change to other ascii ;experiment
         else :
             file.write('0') # change to other ascii ;experiment
-        j = j + 3
-    i = i + 3
+        j = j + 3 # change this if pixel dimension change
+    i = i + 3 # change this too
     file.write('\n')
 # close the file and exit
 file.close()
