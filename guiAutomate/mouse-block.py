@@ -1,4 +1,4 @@
-# script to block mouse b/w 100,100
+# script to block mouse b/w 10,10
 import pyautogui
 
 pyautogui.FAILSAFE = False
